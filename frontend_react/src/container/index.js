@@ -1,6 +1,15 @@
-export {default as About} from './About/about';
-export {default as Footer} from './Footer/footer';
-export {default as Header} from './Header/header';
-export {default as Skills} from './Skills/skills';
-export {default as Testimonials} from './Testimonials/testimonials';
-export {default as Work} from './Work/work';
+import About from './About/About';
+import Footer from './Footer/Footer';
+import Header from './Header/Header';
+import Skills from './Skills/Skills';
+import Testimonial from './Testimonial/Testimonial';
+import Work from './Work/work';
+
+export {
+  About,
+  Footer,
+  Header,
+  Skills,
+  Testimonial,
+  Work,
+};
