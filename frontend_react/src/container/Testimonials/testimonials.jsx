@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
-import './Testimonial.scss';
+import './testimonials.scss';
 
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -72,6 +72,6 @@ const Testimonial = () => {
 
 export default AppWrap(
   MotionWrap(Testimonial, 'app__testimonial'),
-  'testimonial',
+  'testimonials',
   'app__primarybg',
 );

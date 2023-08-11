@@ -1,8 +1,8 @@
-import About from './About/About';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import Skills from './Skills/Skills';
-import Testimonial from './Testimonial/Testimonial';
+import About from './About/about';
+import Footer from './Footer/footer';
+import Header from './Header/header';
+import Skills from './Skills/skills';
+import Testimonial from './Testimonials/testimonials';
 import Work from './Work/work';
 
 export {

@@ -11,7 +11,7 @@ const App = () => {
       <about />
       <work />
       <skills />
-      <testimonal />
+      <testimonals />
       <footer />
    </div>
   )
